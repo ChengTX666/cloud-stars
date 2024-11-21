@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: shop-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.172.11.6:8848
