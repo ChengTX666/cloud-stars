@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("config/")
 public class NacosController {
-//    @NacosInjected
-//    private NamingService namingService;
-//
-//    @GetMapping("get")
-//    public boolean get() {
-//        return useLocalCache;
-//    }
+    @NacosInjected
+    private NamingService namingService;
+
+    @GetMapping("get")
+    public boolean get() {
+        return true;
+    }
 }
