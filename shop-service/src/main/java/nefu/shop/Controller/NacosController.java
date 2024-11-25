@@ -16,6 +16,6 @@ public class NacosController {
 
     @GetMapping("get")
     public boolean get() {
-        return true;
+        return false;
     }
 }
